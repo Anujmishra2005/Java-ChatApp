@@ -27,7 +27,7 @@ public class ChatClientGUI {
         JScrollPane scrollPane = new JScrollPane(messageArea);
 
         inputField = new JTextField();
-        sendButton = new JButton("Send");
+        
 
         JPanel bottomPanel = new JPanel(new BorderLayout());
         bottomPanel.add(inputField, BorderLayout.CENTER);
