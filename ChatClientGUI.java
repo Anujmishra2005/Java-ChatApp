@@ -21,7 +21,7 @@ public class ChatClientGUI {
     }
 
     private void createUI() {
-        frame = new JFrame("Java Chat - Client");
+        frame = new JFrame("Java Chat-Client");
         messageArea = new JTextArea();
         messageArea.setEditable(false);
         JScrollPane scrollPane = new JScrollPane(messageArea);
